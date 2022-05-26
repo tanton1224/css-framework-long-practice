@@ -1,0 +1,101 @@
+html {
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+h1 {
+  /* display: inline-flex; */
+  transition: transform .5s;
+}
+
+h1:hover {
+  transform: translateX(15px);
+}
+
+h2 {
+  /* display: inline-flex; */
+  transition: transform .5s;
+}
+
+h2:hover {
+  transform: translateX(15px);
+}
+
+h3 {
+  /* display: inline-flex; */
+  transition: transform .5s;
+}
+
+h3:hover {
+  transform: translateX(15px);
+}
+
+h4 {
+  /* display: inline-flex; */
+  transition: transform .5s;
+}
+
+h4:hover {
+  transform: translateX(15px);
+}
+
+h5 {
+  /* display: inline-flex; */
+  transition: transform .5s;
+}
+
+h5:hover {
+  transform: translateX(15px);
+}
+
+h6 {
+  /* display: inline-flex; */
+  transition: transform .5s;
+}
+
+h6:hover {
+  transform: translateX(15px);
+}
+
+.card {
+  width: 500px;
+  padding: 10px;
+  border: 2px black dotted;
+}
+
+.card {
+  animation: float 1s ease infinite, side-to-side 1s ease infinite;
+  animation-direction: alternate;
+}
+
+/* .card:hover {
+  transform: translate(0, 20px)
+} */
+
+@keyframes float {
+  0% {
+    transform: translateY(20px)
+  }
+
+  100% {
+    transform: translateY(0)
+  }
+}
+
+@keyframes side-to-side {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(20px);
+    transform: ;
+  }
+}
+
+.card-img-top {
+  transition: transform 2s;
+}
+
+/* .card-img-top:hover {
+  transform: translateX(20px);
+} */
